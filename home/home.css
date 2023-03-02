@@ -1,0 +1,145 @@
+body{
+  background-color:#e8e8e8;
+
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+
+}
+
+/* ===================== OPENING ANIMATION ================== */
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Op{
+  position:relative;
+  left: 0;
+  top: 0;
+  width: 1005;
+  height: 80px;
+
+}
+
+h4{
+  position: relative;
+  left: 10%;
+  bottom: 1rem;
+  font-size: 1.6rem;
+
+}
+
+.intro{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #161616;
+  transition: 1s;
+
+}
+
+.logo-header{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.logo{
+  position: absolute;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+}
+
+.logo.active{
+  bottom: 0;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+
+}
+
+.logo.fade{
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+/* ===================== OPENING ANIMATION ================== */
+
+/*===================== NAV BAR ================  */
+
+
+nav{
+  width: 100%;
+  height:50px;
+  background-color: white;
+  box-shadow: 1px 1px 5px 3px rgb(0, 0, 0);
+}
+
+nav ul{
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  width: 10%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+  padding:10px;
+  transition: all 0.9s ease-in-out;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:black;
+
+}
+
+nav ul a:hover{
+  color:rgb(213, 40, 216)
+}
+
+
+/* ===================== NAV BAR ================  */
+
+
+
+/* ==================== FOOTER =================  */
+ 
+ 
+footer {
+  box-shadow: 1px 1px 30px 3px rgb(0, 0, 0);
+  margin-top: 100vh;
+  text-align: center;
+  background-color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  padding:10vh;
+
+
+}
