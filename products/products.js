@@ -68,7 +68,7 @@ if( age < 18 ){
 
 console.log("my name is" + myname + ". My nickname is" + nickName + ". My age is" + myAge + "and im an/a" + adultSatus);
 
-// ======================== IF/ELSE ==================
+
 
 // ======================== DOM MANIPULATION ==================
 
